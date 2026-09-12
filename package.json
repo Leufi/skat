@@ -1,0 +1,15 @@
+{
+  "name": "samuel-portfolio",
+  "version": "1.0.0",
+  "description": "Portfolio website for Samuel Kofi Agyei-Tuffour - Azure Security Engineer and Identity Governance (IGA) specialist",
+  "private": true,
+  "author": "Samuel Kofi Agyei-Tuffour <kofileumas@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "wrangler pages dev . --ip 0.0.0.0 --port 8788",
+    "deploy": "wrangler pages deploy . --project-name=skat-portfolio"
+  },
+  "devDependencies": {
+    "wrangler": "^4.130.0"
+  }
+}
