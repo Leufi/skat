@@ -7,24 +7,28 @@ const navToggle = document.querySelector('.nav-toggle');
 const navMenu = document.querySelector('.nav-menu');
 const navLinks = document.querySelectorAll('.nav-link');
 
-navToggle.addEventListener('click', () => {
-  navMenu.classList.toggle('active');
-  navToggle.textContent = navMenu.classList.contains('active') ? '[x]' : '[=]';
-});
-
-navLinks.forEach((link) => {
-  link.addEventListener('click', () => {
-    navMenu.classList.remove('active');
-    navToggle.textContent = '[=]';
+if (navToggle && navMenu) {
+  navToggle.addEventListener('click', () => {
+    navMenu.classList.toggle('active');
+    navToggle.textContent = navMenu.classList.contains('active') ? '[x]' : '[=]';
   });
-});
+
+  navLinks.forEach((link) => {
+    link.addEventListener('click', () => {
+      navMenu.classList.remove('active');
+      navToggle.textContent = '[=]';
+    });
+  });
+}
 
 /* ---------- Navbar scroll ---------- */
 const navbar = document.querySelector('.navbar');
-window.addEventListener('scroll', () => {
-  if (window.scrollY > 50) navbar.classList.add('scrolled');
-  else navbar.classList.remove('scrolled');
-});
+if (navbar) {
+  window.addEventListener('scroll', () => {
+    if (window.scrollY > 50) navbar.classList.add('scrolled');
+    else navbar.classList.remove('scrolled');
+  });
+}
 
 /* ---------- Fade-in on scroll ---------- */
 const observer = new IntersectionObserver((entries) => {
@@ -84,10 +88,10 @@ console.log(
   'background: #00ffa3; color: #05070d; font-weight: 800; padding: 8px 14px; border-radius: 4px; font-family: monospace; font-size: 13px;'
 );
 console.log(
-  '%cAzure Security Engineer // Identity Governance (IGA)',
+  '%cCloud Security Engineer // Identity & Access Administrator',
   'color: #00ffa3; font-family: monospace; font-size: 12px; margin-top: 4px;'
 );
 console.log(
-  '%cHarden your Azure identity stack? → kofileumas@gmail.com',
+  '%cOpen to Cloud Security / IAM / IGA roles in the Netherlands → kofileumas@gmail.com',
   'color: #8b96a8; font-family: monospace; font-size: 11px;'
 );
