@@ -10,13 +10,13 @@ const navLinks = document.querySelectorAll('.nav-link');
 if (navToggle && navMenu) {
   navToggle.addEventListener('click', () => {
     navMenu.classList.toggle('active');
-    navToggle.textContent = navMenu.classList.contains('active') ? '[x]' : '[=]';
+    navToggle.textContent = navMenu.classList.contains('active') ? 'Close' : 'Menu';
   });
 
   navLinks.forEach((link) => {
     link.addEventListener('click', () => {
       navMenu.classList.remove('active');
-      navToggle.textContent = '[=]';
+      navToggle.textContent = 'Menu';
     });
   });
 }
@@ -83,15 +83,5 @@ const statObs = new IntersectionObserver((entries) => {
 document.querySelectorAll('.impact-num[data-target]').forEach((el) => statObs.observe(el));
 
 /* ---------- Console signature ---------- */
-console.log(
-  '%c[ skat ]',
-  'background: #00ffa3; color: #05070d; font-weight: 800; padding: 8px 14px; border-radius: 4px; font-family: monospace; font-size: 13px;'
-);
-console.log(
-  '%cIdentity Engineer // Entra ID · IAM / IGA',
-  'color: #00ffa3; font-family: monospace; font-size: 12px; margin-top: 4px;'
-);
-console.log(
-  '%cOpen to Identity / IAM engineering roles in the Netherlands → kofileumas@gmail.com',
-  'color: #8b96a8; font-family: monospace; font-size: 11px;'
-);
+console.log('Samuel Kofi Agyei-Tuffour — identity engineer, Rotterdam');
+console.log('kofileumas@gmail.com');
