@@ -88,10 +88,10 @@ console.log(
   'background: #00ffa3; color: #05070d; font-weight: 800; padding: 8px 14px; border-radius: 4px; font-family: monospace; font-size: 13px;'
 );
 console.log(
-  '%cCloud Security Engineer // Identity & Access Administrator',
+  '%cIdentity Engineer // Entra ID · IAM / IGA',
   'color: #00ffa3; font-family: monospace; font-size: 12px; margin-top: 4px;'
 );
 console.log(
-  '%cOpen to Cloud Security / IAM / IGA roles in the Netherlands → kofileumas@gmail.com',
+  '%cOpen to Identity / IAM engineering roles in the Netherlands → kofileumas@gmail.com',
   'color: #8b96a8; font-family: monospace; font-size: 11px;'
 );

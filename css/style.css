@@ -640,6 +640,44 @@ section {
   line-height: 1.75;
 }
 
+.journey {
+  list-style: none;
+  margin: 2.75rem 0 0;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 0.65rem;
+}
+
+.journey-step {
+  background: var(--bg-1);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 1rem 0.95rem 1.15rem;
+}
+
+.journey-n {
+  display: block;
+  font-family: var(--mono);
+  font-size: 0.7rem;
+  color: var(--green);
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  margin-bottom: 0.45rem;
+}
+
+.journey-title {
+  font-weight: 600;
+  font-size: 0.95rem;
+  color: var(--text);
+  margin-bottom: 0.35rem;
+}
+
+.journey-note {
+  font-size: 0.82rem;
+  color: var(--text-dim);
+  line-height: 1.45;
+}
+
 .about-card {
   background: var(--bg-1);
   border: 1px solid var(--border);
@@ -1113,10 +1151,17 @@ section {
   max-width: 900px;
 }
 
+.edu-note {
+  margin-top: 0.35rem;
+  font-size: 0.88rem;
+  color: var(--text-dim);
+  line-height: 1.45;
+}
+
 .edu-row {
   display: grid;
   grid-template-columns: 36px 1fr;
-  align-items: center;
+  align-items: start;
   gap: 1rem;
   padding: 1rem 1.25rem;
   background: var(--bg-1);
@@ -1359,6 +1404,7 @@ section {
   .hero-side { flex-direction: row; flex-wrap: wrap; }
   .cert-card, .impact-card { flex: 1 1 240px; }
   .about-grid { grid-template-columns: 1fr; gap: 2rem; }
+  .journey { grid-template-columns: 1fr 1fr; }
   .expertise-grid { grid-template-columns: 1fr; }
   .project-grid { grid-template-columns: 1fr; }
 }
@@ -1396,6 +1442,7 @@ section {
 
   .fw-row { grid-template-columns: 110px 1fr; }
   .case-row { grid-template-columns: 1fr; gap: 0.25rem; }
+  .journey { grid-template-columns: 1fr; }
   .timeline-item { grid-template-columns: 22px 1fr; gap: 1rem; }
   .timeline-achievements { padding: 0.75rem 1rem 1.25rem; font-size: 0.9rem; }
   .contact-method { grid-template-columns: 90px 1fr; font-size: 0.82rem; }
