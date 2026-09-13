@@ -1398,7 +1398,10 @@ section {
 .cv-job-head span { color: #5a6478; }
 
 @media print {
-  .cv-toolbar { display: none; }
+  body::before,
+  body::after,
+  .cv-toolbar,
+  .navbar { display: none !important; }
   .cv-page { background: #fff; }
   .cv-sheet { box-shadow: none; margin: 0; max-width: none; padding: 0; }
 }
