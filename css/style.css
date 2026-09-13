@@ -634,6 +634,31 @@ section {
   line-height: 1.75;
 }
 
+.about-story {
+  max-width: 42rem;
+  margin-top: 3rem;
+}
+
+.about-subhead {
+  font-size: 1.15rem;
+  font-weight: 600;
+  color: var(--text);
+  margin-bottom: 1rem;
+}
+
+.about-story p {
+  margin-bottom: 1.1rem;
+  color: var(--text-dim);
+  font-size: 1.02rem;
+  line-height: 1.75;
+}
+
+.role-note {
+  font-weight: 500;
+  font-size: 0.85rem;
+  color: var(--text-mute);
+}
+
 .journey {
   list-style: none;
   margin: 2.75rem 0 0;
