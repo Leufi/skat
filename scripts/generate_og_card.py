@@ -41,7 +41,7 @@ d.text((88, 170), "Samuel Kofi Agyei-Tuffour", fill=text, font=name)
 d.text((88, 250), "Cloud Security Engineer", fill=cyan, font=role)
 d.text((88, 292), "Identity & Access Administrator", fill=cyan, font=role)
 
-d.text((88, 390), "Entra ID  ·  PIM  ·  Conditional Access  ·  IGA", fill=dim, font=meta)
+d.text((88, 390), "Entra  ·  Intune  ·  SharePoint  ·  Atlassian  ·  1Password", fill=dim, font=meta)
 d.text((88, 430), "SC-100  ·  AZ-500  ·  Rotterdam, Netherlands", fill=dim, font=meta)
 d.text((88, 500), "Open to Cloud Security / IAM / IGA roles in the Netherlands", fill=green, font=meta)
 
