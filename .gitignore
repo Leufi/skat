@@ -36,3 +36,6 @@ Thumbs.db
 
 # Netlify
 .netlify/
+
+# Private notes — do not publish
+private/
