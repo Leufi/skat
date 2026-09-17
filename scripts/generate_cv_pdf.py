@@ -64,15 +64,16 @@ def main():
             "IT security and identity engineer. I came into this after a bank my father's firm "
             "guarded was hit through a compromised identity. Telecom diploma, then computer "
             "science (identity and access control), then a cybersecurity master's on IAM and GRC. "
-            "SevenX was part-time while I was still in school. After a year in the Hunt&amp;Hackett "
-            "SOC I moved to SysOps, where I own the IT security of Entra ID, Azure, Intune, "
+            "SevenX was part-time while I was still in school. At Hunt&amp;Hackett I started "
+            "in the SOC, then split the week (three days SysOps, two days SOC) and moved fully "
+            "to SysOps, where I own the IT security of Entra ID, Azure, Intune, "
             "SharePoint, Atlassian, and 1Password — access reviews, joiner / mover / "
             "leaver. SC-100 (2026), AZ-500 (2025).",
             s["body"],
         ),
         Paragraph("EXPERIENCE", s["h"]),
         Paragraph("SysOps Engineer — Hunt&amp;Hackett", s["job"]),
-        Paragraph("The Hague, NL · Jan 2025 – Present", s["when"]),
+        Paragraph("The Hague, NL · Jun 2024 – Present · split week with SOC until Mar 2025", s["when"]),
         bullets(
             [
                 "One of two on SysOps. Own the IT security of Entra ID, Azure, Intune, SharePoint, Atlassian, and 1Password — including access reviews.",
@@ -83,7 +84,7 @@ def main():
             s,
         ),
         Paragraph("SOC Engineer — Hunt&amp;Hackett", s["job"]),
-        Paragraph("The Hague, NL · Jan 2024 – Dec 2024", s["when"]),
+        Paragraph("The Hague, NL · Jan 2024 – Mar 2025 · 2 days/week from Jun 2024", s["when"]),
         bullets(
             [
                 "Microsoft 365 and Azure incidents: identity misuse, bad access, how people actually got into the tenant.",
