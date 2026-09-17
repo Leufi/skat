@@ -66,7 +66,7 @@ def main():
             "science (identity and access control), then a cybersecurity master's on IAM and GRC. "
             "SevenX was part-time while I was still in school. After a year in the Hunt&amp;Hackett "
             "SOC I moved to SysOps, where I own the IT security of Entra ID, Azure, Intune, "
-            "SharePoint, Atlassian, and 1Password — access reviews, break-glass, joiner / mover / "
+            "SharePoint, Atlassian, and 1Password — access reviews, joiner / mover / "
             "leaver. SC-100 (2026), AZ-500 (2025).",
             s["body"],
         ),
@@ -75,7 +75,7 @@ def main():
         Paragraph("The Hague, NL · Jan 2025 – Present", s["when"]),
         bullets(
             [
-                "One of two on SysOps. Own the IT security of Entra ID, Azure, Intune, SharePoint, Atlassian, and 1Password — including break-glass and access reviews.",
+                "One of two on SysOps. Own the IT security of Entra ID, Azure, Intune, SharePoint, Atlassian, and 1Password — including access reviews.",
                 "Conditional Access, PIM, and Entra ID Governance so least privilege is the default, not a cleanup project.",
                 "IAM automation platform (Django, Graph API) that cut access-review effort by 25%.",
                 "Passwordless (YubiKey) and Intune-managed workspaces; 15% lower identity risk metrics.",
@@ -114,7 +114,7 @@ def main():
         Paragraph("SKILLS", s["h"]),
         Paragraph(
             "<b>Identity:</b> Entra ID, PIM, Conditional Access, FIDO2, JML, access reviews, IAM / IGA.<br/>"
-            "<b>IT security:</b> Microsoft 365, Intune, SharePoint permissions, Atlassian, 1Password, break-glass.<br/>"
+            "<b>IT security:</b> Microsoft 365, Intune, SharePoint permissions, Atlassian, 1Password.<br/>"
             "<b>Automation:</b> Python, Django, Microsoft Graph API, Logic Apps.<br/>"
             "<b>Audits:</b> ISO 27001, SOC 2, evidence from identity logs.",
             s["body"],
