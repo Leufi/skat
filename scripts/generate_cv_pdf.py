@@ -53,7 +53,7 @@ def main():
     )
     story = [
         Paragraph("Samuel Kofi Agyei-Tuffour", s["name"]),
-        Paragraph("IT Security &amp; Identity Engineer · Entra ID · Microsoft 365", s["role"]),
+        Paragraph("IT Security &amp; Identity Engineer · Entra ID · IAM", s["role"]),
         Paragraph(
             "Rotterdam, Netherlands · kofileumas@gmail.com · linkedin.com/in/s-k-agyei-tuffour<br/>"
             "Open to IT security and identity / IAM roles in the Netherlands",
@@ -76,7 +76,7 @@ def main():
         bullets(
             [
                 "One of two on SysOps. Own the IT security of Entra ID, Azure, Intune, SharePoint, Atlassian, and 1Password — including break-glass and access reviews.",
-                "Enterprise Zero Trust with Conditional Access, PIM, and Entra ID Governance.",
+                "Conditional Access, PIM, and Entra ID Governance so least privilege is the default, not a cleanup project.",
                 "IAM automation platform (Django, Graph API) that cut access-review effort by 25%.",
                 "Passwordless (YubiKey) and Intune-managed workspaces; 15% lower identity risk metrics.",
             ],
@@ -91,12 +91,13 @@ def main():
             ],
             s,
         ),
-        Paragraph("IT Security Engineer — SevenX", s["job"]),
+        Paragraph("IT Security Analyst — SevenX", s["job"]),
         Paragraph("Kigali, Rwanda · Feb 2021 – Aug 2023 · part-time / internship", s["when"]),
         bullets(
             [
-                "Part-time while studying. Access control, identity provisioning, and policy work.",
-                "Internal security audits and remediation; security-awareness training for 30+ colleagues.",
+                "Day-to-day IT security: access control, identity provisioning, and who could use which systems.",
+                "Internal security audits, then stayed with the findings until they were fixed.",
+                "Access policy and training for 30+ colleagues; compliance went up after that.",
             ],
             s,
         ),
