@@ -48,25 +48,26 @@ def main():
         rightMargin=16 * mm,
         topMargin=14 * mm,
         bottomMargin=12 * mm,
-        title="Samuel Kofi Agyei-Tuffour — Identity Engineer CV",
+        title="Samuel Kofi Agyei-Tuffour — IT Security & Identity Engineer CV",
         author="Samuel Kofi Agyei-Tuffour",
     )
     story = [
         Paragraph("Samuel Kofi Agyei-Tuffour", s["name"]),
-        Paragraph("Identity Engineer · Entra ID · IAM / IGA", s["role"]),
+        Paragraph("IT Security &amp; Identity Engineer · Entra ID · Microsoft 365", s["role"]),
         Paragraph(
             "Rotterdam, Netherlands · kofileumas@gmail.com · linkedin.com/in/s-k-agyei-tuffour<br/>"
-            "Open to identity / IAM engineering roles in the Netherlands",
+            "Open to IT security and identity / IAM roles in the Netherlands",
             s["meta"],
         ),
         Paragraph("PROFILE", s["h"]),
         Paragraph(
-            "Identity engineer. I came into this after a bank my father's firm guarded was hit "
-            "through a compromised identity. Telecom diploma, then computer science (identity and "
-            "access control), then a cybersecurity master's on IAM and GRC. SevenX was part-time "
-            "while I was still in school. After a year in the Hunt&amp;Hackett SOC I moved to "
-            "SysOps, where I am one of two people who own Entra ID, Azure, Intune, SharePoint, "
-            "Atlassian, and 1Password. SC-100 (2026), AZ-500 (2025).",
+            "IT security and identity engineer. I came into this after a bank my father's firm "
+            "guarded was hit through a compromised identity. Telecom diploma, then computer "
+            "science (identity and access control), then a cybersecurity master's on IAM and GRC. "
+            "SevenX was part-time while I was still in school. After a year in the Hunt&amp;Hackett "
+            "SOC I moved to SysOps, where I own the IT security of Entra ID, Azure, Intune, "
+            "SharePoint, Atlassian, and 1Password — access reviews, break-glass, joiner / mover / "
+            "leaver. SC-100 (2026), AZ-500 (2025).",
             s["body"],
         ),
         Paragraph("EXPERIENCE", s["h"]),
@@ -74,7 +75,7 @@ def main():
         Paragraph("The Hague, NL · Jan 2025 – Present", s["when"]),
         bullets(
             [
-                "One of two on SysOps. Own Entra ID, Azure, Intune, SharePoint, Atlassian, and 1Password — including break-glass and access reviews.",
+                "One of two on SysOps. Own the IT security of Entra ID, Azure, Intune, SharePoint, Atlassian, and 1Password — including break-glass and access reviews.",
                 "Enterprise Zero Trust with Conditional Access, PIM, and Entra ID Governance.",
                 "IAM automation platform (Django, Graph API) that cut access-review effort by 25%.",
                 "Passwordless (YubiKey) and Intune-managed workspaces; 15% lower identity risk metrics.",
@@ -102,6 +103,7 @@ def main():
         Paragraph("SELECTED WORK", s["h"]),
         bullets(
             [
+                "<b>Access Register</b> — Who can open which Entra app, including group-granted access, plus leftover M365 accounts.",
                 "<b>grurpID</b> — JML platform for employee account lifecycle and access; 25% less manual IAM effort.",
                 "<b>ExitScan</b> — Leaver offboarding and orphaned-account detection across downstream apps.",
                 "<b>AuditVault</b> — ISO 27001 evidence packs from identity logs.",
@@ -111,7 +113,7 @@ def main():
         Paragraph("SKILLS", s["h"]),
         Paragraph(
             "<b>Identity:</b> Entra ID, PIM, Conditional Access, FIDO2, JML, access reviews, IAM / IGA.<br/>"
-            "<b>Also:</b> Azure, Intune, SharePoint, Atlassian, 1Password.<br/>"
+            "<b>IT security:</b> Microsoft 365, Intune, SharePoint permissions, Atlassian, 1Password, break-glass.<br/>"
             "<b>Automation:</b> Python, Django, Microsoft Graph API, Logic Apps.<br/>"
             "<b>Audits:</b> ISO 27001, SOC 2, evidence from identity logs.",
             s["body"],

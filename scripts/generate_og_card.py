@@ -36,13 +36,13 @@ name = font(48, bold=True)
 role = font(26, bold=True)
 meta = font(20)
 
-d.text((88, 100), "Identity engineer", fill=green, font=kicker)
+d.text((88, 100), "IT security  ·  Identity engineer", fill=green, font=kicker)
 d.text((88, 170), "Samuel Kofi Agyei-Tuffour", fill=text, font=name)
-d.text((88, 250), "Entra ID, IAM / IGA", fill=text, font=role)
+d.text((88, 250), "Entra ID, access, Microsoft 365", fill=text, font=role)
 d.text((88, 292), "Rotterdam, Netherlands", fill=dim, font=role)
 
 d.text((88, 430), "SC-100  ·  AZ-500", fill=dim, font=meta)
-d.text((88, 480), "Looking for identity / IAM roles in the Netherlands", fill=green, font=meta)
+d.text((88, 480), "Looking for IT security and identity / IAM roles", fill=green, font=meta)
 
 img.save(OUT, "PNG", optimize=True)
 print(f"wrote {OUT} {OUT.stat().st_size} bytes")
