@@ -56,7 +56,7 @@ def main():
         Paragraph("IT Security &amp; Identity Engineer · Entra ID · IAM", s["role"]),
         Paragraph(
             "Rotterdam, Netherlands · kofileumas@gmail.com · linkedin.com/in/s-k-agyei-tuffour<br/>"
-            "Open to IT security and identity / IAM roles in the Netherlands",
+            "Open to IT security and identity / IAM roles in the Netherlands and the UK",
             s["meta"],
         ),
         Paragraph("PROFILE", s["h"]),
