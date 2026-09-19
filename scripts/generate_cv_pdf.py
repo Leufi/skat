@@ -56,7 +56,7 @@ def main():
         Paragraph("IT Security &amp; Identity Engineer · Entra ID · IAM", s["role"]),
         Paragraph(
             "Rotterdam, Netherlands · kofileumas@gmail.com · linkedin.com/in/s-k-agyei-tuffour<br/>"
-            "Open to IT security and identity / IAM roles in the Netherlands and the UK",
+            "Open to IT security and identity / IAM roles",
             s["meta"],
         ),
         Paragraph("PROFILE", s["h"]),
@@ -76,7 +76,7 @@ def main():
         Paragraph("The Hague, NL · Jun 2024 – Present · split week with SOC until Mar 2025", s["when"]),
         bullets(
             [
-                "One of two on SysOps. Own the IT security of Entra ID, Azure, Intune, SharePoint, Atlassian, and 1Password — including access reviews.",
+                "Ran Entra ID, Azure, Intune, SharePoint, Atlassian, and 1Password — including access reviews.",
                 "Conditional Access, PIM, and Entra ID Governance so least privilege is the default, not a cleanup project.",
                 "IAM automation platform (Django, Graph API) that cut access-review effort by 25%.",
                 "Passwordless (YubiKey) and Intune-managed workspaces; 15% lower identity risk metrics.",
@@ -88,6 +88,7 @@ def main():
         bullets(
             [
                 "Microsoft 365 and Azure incidents: identity misuse, bad access, how people actually got into the tenant.",
+                "Wrote detection rules in Google SecOps. Also used Carbon Black.",
                 "Tuned detections so identity misuse was visible — 12% better detection efficiency, 20% fewer false positives.",
             ],
             s,

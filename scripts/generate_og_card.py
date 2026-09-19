@@ -42,7 +42,7 @@ d.text((88, 250), "Entra ID, access, Microsoft 365", fill=text, font=role)
 d.text((88, 292), "Rotterdam, Netherlands", fill=dim, font=role)
 
 d.text((88, 430), "SC-100  ·  AZ-500", fill=dim, font=meta)
-d.text((88, 480), "IT security and identity / IAM  ·  NL and UK", fill=green, font=meta)
+d.text((88, 480), "Looking for IT security and identity / IAM roles", fill=green, font=meta)
 
 img.save(OUT, "PNG", optimize=True)
 print(f"wrote {OUT} {OUT.stat().st_size} bytes")
